@@ -2,83 +2,63 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>99 Nights in the Forest — Roblox Horror Wiki</title>
-
+<title>99 Nights in the Forest Wiki</title>
 <style>
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #060606;
-    color: #d6d6d6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f1115;
+  color: #e0e0e0;
 }
 header {
-    background: #0f0f0f;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 3px solid #1a1a1a;
-    position: relative;
+  background: #1b1f2a;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid #2e3445;
+}
+header h1 {
+  margin: 0;
+  color: #8fd3ff;
 }
 nav {
-    background: #0c0c0c;
-    padding: 10px;
-    text-align: center;
+  background: #151824;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 nav a {
-    color: #aaa;
-    margin: 0 10px;
-    text-decoration: none;
+  color: #cfd8ff;
+  text-decoration: none;
+  margin: 5px 10px;
+  padding: 6px 10px;
+  border-radius: 4px;
 }
 nav a:hover {
-    color: #fff;
+  background: #2a2f45;
 }
-.lang {
-    position: absolute;
-    top: 15px;
-    right: 15px;
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
 }
-.lang button {
-    background: #222;
-    color: #fff;
-    border: none;
-    margin-left: 5px;
-    cursor: pointer;
+.section {
+  background: #1a1d2b;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 6px;
 }
-section {
-    display: none;
-    padding: 20px;
+.section h2 {
+  color: #ffcc66;
 }
-section.active {
-    display: block;
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #777;
+  font-size: 14px;
 }
-.card {
-    background: #121212;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-left: 4px solid #6a2424;
-}
-.map {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 6px;
-}
-.zone {
-    background: #181818;
-    border: 1px solid #333;
-    padding: 10px;
-    text-align: center;
-    cursor: pointer;
-}
-.zone:hover { background: #252525; }
-.log {
-    background: #0e0e0e;
-    padding: 10px;
-    height: 160px;
-    overflow-y: auto;
-    border: 1px solid #333;
-}
-img {
-    max-width: 100%;
-    border: 1px solid #333;
+.wiki-link {
+  color: #7db7ff;
 }
 </style>
 </head>
@@ -86,166 +66,94 @@ img {
 <body>
 
 <header>
-<h1 id="title">99 Nights in the Forest</h1>
-<p id="subtitle">Roblox Horror Survival Wiki</p>
-
-<div class="lang">
-<button onclick="setLang('en')">EN</button>
-<button onclick="setLang('ru')">RU</button>
-</div>
+  <h1>99 Nights in the Forest Wiki</h1>
+  <p>Unofficial Roblox Horror Wiki</p>
 </header>
 
 <nav>
-<a href="#home">Home</a>
-<a href="#monsters">Monsters</a>
-<a href="#map">Map</a>
-<a href="#sim">Night Simulator</a>
-<a href="#log">Event Log</a>
-<a href="#secrets">Secrets</a>
+  <a href="#">Home</a>
+  <a href="#">Monsters</a>
+  <a href="#">Guides</a>
+  <a href="#">Classes</a>
+  <a href="#">Resources</a>
+  <a href="#">Map</a>
+  <a href="#">Night Events</a>
+  <a href="#">Secret Endings</a>
 </nav>
 
-<!-- HOME -->
-<section id="home" class="active">
-<div class="card" id="homeText"></div>
-</section>
+<main>
 
-<!-- MONSTERS LIST -->
-<section id="monsters">
-<div class="card">
-<h2>Monsters</h2>
-<ul>
-<li><a href="#monsters-watcher">Watcher</a></li>
-<li><a href="#monsters-shadow">Shadow Walker</a></li>
-<li><a href="#monsters-whisper">Forest Whisper</a></li>
-</ul>
+<div class="section">
+  <h2>📖 About the Game</h2>
+  <p>
+    <b>99 Nights in the Forest</b> is a Roblox horror survival game where players must
+    survive 99 nights while facing monsters, managing resources, and making critical choices.
+  </p>
 </div>
-</section>
 
-<!-- WATCHER -->
-<section id="monsters-watcher">
-<div class="card">
-<h2>Watcher</h2>
-<img src="https://i.imgur.com/7QZ6F9K.png">
-<p id="watcherText"></p>
+<div class="section">
+  <h2>👹 Monsters</h2>
+  <ul>
+    <li><a class="wiki-link" href="#">Watcher</a> – Observes players at night</li>
+    <li><a class="wiki-link" href="#">Crawler</a> – Attacks from the shadows</li>
+    <li><a class="wiki-link" href="#">Mimic</a> – Disguises itself as objects</li>
+    <li><a class="wiki-link" href="#">???</a> – Secret monster</li>
+  </ul>
 </div>
-</section>
 
-<!-- SHADOW -->
-<section id="monsters-shadow">
-<div class="card">
-<h2>Shadow Walker</h2>
-<img src="https://i.imgur.com/fyY6XnP.png">
-<p id="shadowText"></p>
+<div class="section">
+  <h2>🧭 Guides</h2>
+  <ul>
+    <li>Beginner Survival Guide</li>
+    <li>How to survive first 10 nights</li>
+    <li>Best base locations</li>
+  </ul>
 </div>
-</section>
 
-<!-- WHISPER -->
-<section id="monsters-whisper">
-<div class="card">
-<h2>Forest Whisper</h2>
-<img src="https://i.imgur.com/0xKQZQq.png">
-<p id="whisperText"></p>
+<div class="section">
+  <h2>🧑 Classes</h2>
+  <ul>
+    <li>Survivor – Balanced start</li>
+    <li>Scout – Faster movement</li>
+    <li>Engineer – Better buildings</li>
+    <li>Hunter – Bonus damage to monsters</li>
+  </ul>
 </div>
-</section>
 
-<!-- MAP -->
-<section id="map">
-<h2>Forest Map</h2>
-<div class="map">
-<div class="zone" onclick="logEvent(t('Base explored','Исследована база'))">🏕 Base</div>
-<div class="zone" onclick="logEvent(t('Deep forest','Глубокий лес'))">🌲 Forest</div>
-<div class="zone" onclick="logEvent(t('Fog zone','Туманная зона'))">🌫 Fog</div>
-<div class="zone" onclick="logEvent(t('Ruins found','Найдены руины'))">🦴 Ruins</div>
-<div class="zone" onclick="logEvent(t('Abyss','Бездна'))">⚠ Abyss</div>
+<div class="section">
+  <h2>🪵 Resources</h2>
+  <ul>
+    <li>Wood – Buildings</li>
+    <li>Scrap – Tools & upgrades</li>
+    <li>Fuel – Light sources</li>
+    <li>Food – Survival</li>
+  </ul>
 </div>
-</section>
 
-<!-- SIM -->
-<section id="sim">
-<div class="card">
-<h2>Night Simulator</h2>
-<p><b>Night:</b> <span id="night">1</span></p>
-<button onclick="nextNight()">Survive Night</button>
+<div class="section">
+  <h2>🌑 Night Events</h2>
+  <ul>
+    <li>Fog Night</li>
+    <li>Blood Moon</li>
+    <li>Silence Event</li>
+  </ul>
 </div>
-</section>
 
-<!-- LOG -->
-<section id="log">
-<h2>Event Log</h2>
-<div class="log" id="eventLog"></div>
-</section>
-
-<!-- SECRETS -->
-<section id="secrets">
-<div class="card">
-<h2>Secret Monsters</h2>
-<p>• The Silent One — click Fog 10 times<br>
-• False Light — follow light too often<br>
-• Mirror — stay still too long</p>
+<div class="section">
+  <h2>🗺️ Map</h2>
+  <p>Interactive forest map coming soon.</p>
 </div>
-</section>
 
-<script>
-let lang = localStorage.getItem("lang") || "en";
-let night = 1;
+<div class="section">
+  <h2>🔒 Secret Endings</h2>
+  <p>Multiple endings depending on choices and nights survived.</p>
+</div>
 
-function setLang(l){
-    lang=l;
-    localStorage.setItem("lang",l);
-    renderText();
-}
+</main>
 
-function t(en,ru){ return lang==="ru"?ru:en; }
-
-function renderText(){
-document.getElementById("homeText").innerHTML =
-t(
-"Welcome to the official <b>99 Nights in the Forest</b> Wiki.",
-"Добро пожаловать в официальную Wiki <b>99 ночей в лесу</b>."
-);
-
-document.getElementById("watcherText").innerHTML =
-t(
-"Appears after Night 35. Attacks if you stop moving.",
-"Появляется после 35 ночи. Атакует, если стоять."
-);
-
-document.getElementById("shadowText").innerHTML =
-t(
-"Walks around campfire. Afraid of light.",
-"Ходит вокруг костра. Боится света."
-);
-
-document.getElementById("whisperText").innerHTML =
-t(
-"Lures player with voices.",
-"Заманивает игрока голосами."
-);
-}
-
-function showSection(){
-let hash = location.hash.replace("#","") || "home";
-document.querySelectorAll("section").forEach(s=>s.classList.remove("active"));
-let el = document.getElementById(hash);
-if(el) el.classList.add("active");
-}
-
-function logEvent(text){
-let log = document.getElementById("eventLog");
-log.innerHTML += "Night "+night+": "+text+"<br>";
-log.scrollTop = log.scrollHeight;
-}
-
-function nextNight(){
-night++;
-document.getElementById("night").innerText = night;
-logEvent(t("You survived the night","Ты пережил ночь"));
-}
-
-window.onhashchange = showSection;
-renderText();
-showSection();
-</script>
+<footer>
+  Not affiliated with Roblox or the game developers
+</footer>
 
 </body>
 </html>
